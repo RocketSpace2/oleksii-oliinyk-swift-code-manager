@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.oleksiioliinyk</groupId>
-	<artifactId>swiftconverter</artifactId>
+	<artifactId>swiftcodemanager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SWIFT Converter</name>
+	<name>Swift Code Manager</name>
 	<description>
 		An application that parses, converts, and manages SWIFT code data
 		from Excel files — classifying headquarters and branch codes,
@@ -41,6 +41,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 		</dependency>
 
 		<dependency>

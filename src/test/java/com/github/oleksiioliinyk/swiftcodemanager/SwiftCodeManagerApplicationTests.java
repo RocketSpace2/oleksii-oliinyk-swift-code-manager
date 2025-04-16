@@ -1,10 +1,10 @@
-package com.github.oleksiioliinyk.swiftconverter;
+package com.github.oleksiioliinyk.swiftcodemanager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SwiftConverterApplicationTests {
+class SwiftCodeManagerApplicationTests {
 
 	@Test
 	void contextLoads() {

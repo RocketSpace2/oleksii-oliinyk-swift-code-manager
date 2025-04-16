@@ -1,13 +1,13 @@
-package com.github.oleksiioliinyk.swiftconverter;
+package com.github.oleksiioliinyk.swiftcodemanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SwiftConverterApplication {
+public class SwiftCodeManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SwiftConverterApplication.class, args);
+		SpringApplication.run(SwiftCodeManagerApplication.class, args);
 	}
 
 }

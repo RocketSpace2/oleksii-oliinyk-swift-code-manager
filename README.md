@@ -74,7 +74,7 @@ git clone https://github.com/RocketSpace2/oleksii-oliinyk-swift-code-manager.git
 
 ## 🚀 Running
 
-Docker Compose will start both Postgres and your Spring Boot app in one step:
+Docker Compose will start both Postgres and Spring Boot app in one step:
 
 ```bash
 docker-compose up --build
@@ -86,7 +86,7 @@ The server service will:
 
 - Build the `oleksii-oliinyk-swift-code-manager`
 
-- Expose port `8080` on your host
+- Expose port `8080` on the host
 
 - Automatically wire up to the `db` container
 

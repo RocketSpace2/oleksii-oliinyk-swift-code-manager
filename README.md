@@ -37,7 +37,7 @@ Some parts of the exercise description were not clear for me. Here is how I chos
 Although the structure may look like Domain‑Driven Design, my intention was to implement a Layered Architecture. As illustrated, the overall system is organized into six distinct layers:
 
 1. **Presentation Layer**
-    - Here I have everything related the REST API, such as controller class, dto, response and request objects. Also here as well as in the persistence layer I have mapper class for mapping `DTO ↔ domain` object
+    - Here I have everything related the REST API, such as controller class, dto, response and request objects. Also here as well as in the persistence layer I have mapper class for mapping `DTO ↔ domain object`.
 
 2. **Application Layer**
     - This layer is responsible for orchestrating whole application and performing validation on part which persistence and presentation layer aren't responsible for. It consists of two classes `"SwiftCodeManagerService"` and `"SwiftCodeInitializationService"`, where `"SwiftCodeInitializationService"` is responsible for startup initialization of the application.

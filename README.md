@@ -114,29 +114,28 @@ Once the application is up and running, you can explore its key endpoints using 
 
 - To test the `POST` endpoint at `http://localhost:8080/v1/swift-codes`, send each of the following JSON payloads in a separate request.
 
-  -
 
-      ```json
-      {
-        "address": "456 Avenue des Champs‑Élysées, 75008 Paris",
-        "bankName": "BANQUE PARISIENNE DE CRÉDIT",
-        "countryISO2": "FR",
-        "countryName": "France",
-        "isHeadquarter": false,
-        "swiftCode": "BPCRFRPP001"
-      }
-      ```
-  -
-      ```json
-      {
-        "address": "123 Rue de Rivoli, 75001 Paris",
-        "bankName": "BANQUE PARISIENNE DE CRÉDIT",
-        "countryISO2": "FR",
-        "countryName": "France",
-        "isHeadquarter": true,
-        "swiftCode": "BPCRFRPPXXX"
-      }
-      ```
+```json
+{
+"address": "456 Avenue des Champs‑Élysées, 75008 Paris",
+"bankName": "BANQUE PARISIENNE DE CRÉDIT",
+"countryISO2": "FR",
+"countryName": "France",
+"isHeadquarter": false,
+"swiftCode": "BPCRFRPP001"
+}
+```
+
+```json
+{
+"address": "123 Rue de Rivoli, 75001 Paris",
+"bankName": "BANQUE PARISIENNE DE CRÉDIT",
+"countryISO2": "FR",
+"countryName": "France",
+"isHeadquarter": true,
+"swiftCode": "BPCRFRPPXXX"
+}
+  ```
 - Retrieve the details of one SWIFT code by supplying it in the URL path:
 
     ```

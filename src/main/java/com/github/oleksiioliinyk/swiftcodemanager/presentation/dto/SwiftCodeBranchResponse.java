@@ -7,12 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SwiftCodeDTO {
-    private Long id;
-    private String swiftCode;
-    private String bankName;
+public class SwiftCodeBranchResponse {
     private String address;
-    private String countryISO2Code;
+    private String bankName;
+    private String countryISO2;
     private String countryName;
-    private SwiftCodeDTO headquarter;
+    private Boolean isHeadquarter;
+    private String swiftCode;
 }

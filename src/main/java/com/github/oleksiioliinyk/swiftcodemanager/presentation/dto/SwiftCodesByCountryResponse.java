@@ -4,15 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SwiftCodeDTO {
-    private Long id;
-    private String swiftCode;
-    private String bankName;
-    private String address;
-    private String countryISO2Code;
+public class SwiftCodesByCountryResponse {
+    private String countryISO2;
     private String countryName;
-    private SwiftCodeDTO headquarter;
+    private List<SwiftCodeCountryResponse> swiftCodes;
 }

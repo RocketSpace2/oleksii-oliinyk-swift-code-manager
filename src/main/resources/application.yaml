@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Swift Code Manager
+
+  datasource:
+    url:        jdbc:postgresql://localhost:5431/docker_swift_code_manager_db
+    username:   postgres
+    password:   Alex40021502
+    driver-class-name: org.postgresql.Driver
